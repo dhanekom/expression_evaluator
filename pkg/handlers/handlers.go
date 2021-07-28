@@ -18,11 +18,6 @@ type Expression struct {
 	K float64
 }
 
-// type Output struct {
-// 	H float64 `json:"h"`
-// 	K float64 `json:"k"`
-// }
-
 const M, P, T = 1.0, 2.0, 3.0
 
 func (e *Expression) EvalBaseExpression() error {
