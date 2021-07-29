@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/dhanekom/wc_assessment/pkg/handlers"
+	"github.com/dhanekom/expression_evaluator/pkg/handlers"
 )
 
 func routes() http.Handler {

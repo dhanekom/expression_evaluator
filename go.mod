@@ -1,3 +1,3 @@
-module github.com/dhanekom/wc_assessment
+module github.com/dhanekom/expression_evaluator
 
 go 1.16

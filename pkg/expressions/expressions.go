@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// ExprRunner has expressions logic and executes expressions with provided input
 type ExprRunner struct {
 	A          bool     `json:"a"`
 	B          bool     `json:"b"`
@@ -25,10 +26,10 @@ const (
 	OptionCustom2 = "CUSTOM2"
 )
 
-var expressionOptions = map[string]int{
-	OptionBase:    0,
-	OptionCustom1: 1,
-	OptionCustom2: 2,
+var expressionOptions = map[string]struct{}{
+	OptionBase:    struct{}{},
+	OptionCustom1: struct{}{},
+	OptionCustom2: struct{}{},
 }
 
 func (e *ExprRunner) Run() error {

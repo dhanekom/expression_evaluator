@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dhanekom/wc_assessment/pkg/expressions"
+	"github.com/dhanekom/expression_evaluator/pkg/expressions"
 )
 
 // GetExpressionJSON receives json as input, transforms it based on expressions and outputs the resuls as json
